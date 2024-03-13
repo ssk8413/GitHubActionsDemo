@@ -1,0 +1,8 @@
+name: file system
+'on': push
+jobs:
+  my-jobs: null
+  runs-on: ubuntu-latest
+  steps:
+    '-name': my-step
+    run: cat /etc/fstab
