@@ -1,5 +1,5 @@
 name: file system
- on : push
+on: push
 jobs:
   my-jobs: null
     runs-on: ubuntu-latest
